@@ -2,7 +2,7 @@
 
 <img src="assets/header.svg" width="100%" alt="Tamir Sobuh — Software Engineering Student | QA & Security"/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=FFD166&center=true&vCenter=true&width=600&lines=Software+Engineering+Student+%40+Shenkar;3+Years+QA+%26+Validation+%40+Intel;Network+Security+%26+Traffic+Analysis;Full+Stack+Development" alt="Typing SVG" />
+<img src="assets/blast.svg" width="720" alt="Repulsor blast: Software Engineering Student @ Shenkar · 3 Years QA & Validation @ Intel · Network Security & Traffic Analysis · Full Stack Development"/>
 
 <br/>
 
