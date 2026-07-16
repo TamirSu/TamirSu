@@ -1,15 +1,25 @@
 <svg width="1200" height="120" viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bgf" x1="0%" y1="100%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#1E1B4B"/>
-      <stop offset="45%" stop-color="#4F46E5"/>
-      <stop offset="100%" stop-color="#7C3AED"/>
+      <stop offset="0%" stop-color="#1A0505"/>
+      <stop offset="45%" stop-color="#7A0E0E"/>
+      <stop offset="100%" stop-color="#B71C1C"/>
+    </linearGradient>
+    <linearGradient id="goldf" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F2A900" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#FFD166" stop-opacity="0.25"/>
     </linearGradient>
   </defs>
-  <path fill="url(#bgf)" d="M0,50 C200,10 400,90 600,50 C800,10 1000,90 1200,50 L1200,120 L0,120 Z">
+  <path fill="url(#goldf)" d="M0,45 C200,10 400,80 600,45 C800,10 1000,80 1200,45 L1200,120 L0,120 Z">
+    <animate attributeName="d" dur="10s" repeatCount="indefinite"
+      values="M0,45 C200,10 400,80 600,45 C800,10 1000,80 1200,45 L1200,120 L0,120 Z;
+              M0,55 C200,85 400,15 600,55 C800,85 1000,15 1200,55 L1200,120 L0,120 Z;
+              M0,45 C200,10 400,80 600,45 C800,10 1000,80 1200,45 L1200,120 L0,120 Z"/>
+  </path>
+  <path fill="url(#bgf)" d="M0,55 C200,20 400,95 600,55 C800,20 1000,95 1200,55 L1200,120 L0,120 Z">
     <animate attributeName="d" dur="8s" repeatCount="indefinite"
-      values="M0,50 C200,10 400,90 600,50 C800,10 1000,90 1200,50 L1200,120 L0,120 Z;
-              M0,60 C200,95 400,15 600,60 C800,95 1000,15 1200,60 L1200,120 L0,120 Z;
-              M0,50 C200,10 400,90 600,50 C800,10 1000,90 1200,50 L1200,120 L0,120 Z"/>
+      values="M0,55 C200,20 400,95 600,55 C800,20 1000,95 1200,55 L1200,120 L0,120 Z;
+              M0,65 C200,100 400,20 600,65 C800,100 1000,20 1200,65 L1200,120 L0,120 Z;
+              M0,55 C200,20 400,95 600,55 C800,20 1000,95 1200,55 L1200,120 L0,120 Z"/>
   </path>
 </svg>

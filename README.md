@@ -2,24 +2,24 @@
 
 <img src="assets/header.svg" width="100%" alt="Tamir Sobuh — Software Engineering Student | QA & Security"/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Software+Engineering+Student+%40+Shenkar;3+Years+QA+%26+Validation+%40+Intel;Network+Security+%26+Traffic+Analysis;Full+Stack+Development" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=FFD166&center=true&vCenter=true&width=600&lines=Software+Engineering+Student+%40+Shenkar;3+Years+QA+%26+Validation+%40+Intel;Network+Security+%26+Traffic+Analysis;Full+Stack+Development" alt="Typing SVG" />
 
 <br/>
 
-<img src="https://img.shields.io/badge/B.Sc.%20Software%20Engineering-Shenkar-6D28D9?style=flat-square&logo=googlescholar&logoColor=white" alt="Degree"/>
-<img src="https://img.shields.io/badge/Ex--Intel-QA%20%26%20Validation-4F46E5?style=flat-square&logo=intel&logoColor=white" alt="Intel"/>
-<img src="https://img.shields.io/badge/📍%20Haifa,%20Israel-312E81?style=flat-square" alt="Location"/>
+<img src="https://img.shields.io/badge/B.Sc.%20Software%20Engineering-Shenkar-B71C1C?style=flat-square&logo=googlescholar&logoColor=white" alt="Degree"/>
+<img src="https://img.shields.io/badge/Ex--Intel-QA%20%26%20Validation-F2A900?style=flat-square&logo=intel&logoColor=white" alt="Intel"/>
+<img src="https://img.shields.io/badge/📍%20Haifa,%20Israel-3D0808?style=flat-square" alt="Location"/>
 
 <br/><br/>
 
 <a href="https://linkedin.com/in/tamir-soboh"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="mailto:tamirsobuh12@gmail.com"><img src="https://img.shields.io/badge/Email-Contact%20Me-7C3AED?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="mailto:tamirsobuh12@gmail.com"><img src="https://img.shields.io/badge/Email-Contact%20Me-B71C1C?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 <a href="https://github.com/TamirSu"><img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=TamirSu&style=flat-square&color=6D28D9" alt="Profile Views"/>
-<img src="https://img.shields.io/github/followers/TamirSu?style=flat-square&color=7C3AED&label=Followers" alt="Followers"/>
+<img src="https://komarev.com/ghpvc/?username=TamirSu&style=flat-square&color=F2A900" alt="Profile Views"/>
+<img src="https://img.shields.io/github/followers/TamirSu?style=flat-square&color=B71C1C&label=Followers" alt="Followers"/>
 
 </div>
 
@@ -184,12 +184,12 @@ Processor hardware validation in lab environments.
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=TamirSu&show_icons=true&theme=midnight-purple&hide_border=true&count_private=true" height="165" alt="GitHub Stats"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TamirSu&layout=compact&theme=midnight-purple&hide_border=true" height="165" alt="Top Languages"/>
+<img src="https://github-readme-stats.vercel.app/api?username=TamirSu&show_icons=true&hide_border=true&count_private=true&bg_color=0D1117&title_color=FFD166&icon_color=E62429&text_color=C9D1D9" height="165" alt="GitHub Stats"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TamirSu&layout=compact&hide_border=true&bg_color=0D1117&title_color=FFD166&text_color=C9D1D9" height="165" alt="Top Languages"/>
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com?user=TamirSu&theme=midnight-purple&hide_border=true" alt="Streak Stats"/>
+<img src="https://streak-stats.demolab.com?user=TamirSu&hide_border=true&background=0D1117&ring=F2A900&fire=E62429&currStreakLabel=FFD166&sideLabels=FFD166&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8B949E&stroke=3D0808" alt="Streak Stats"/>
 
 </div>
 
@@ -199,7 +199,7 @@ Processor hardware validation in lab environments.
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=TamirSu&theme=discord&no-frame=true&column=7&margin-w=8" alt="Trophies"/>
+<img src="https://github-profile-trophy.vercel.app/?username=TamirSu&theme=onedark&no-frame=true&column=7&margin-w=8" alt="Trophies"/>
 
 </div>
 
@@ -209,7 +209,7 @@ Processor hardware validation in lab environments.
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=TamirSu&theme=tokyo-night&hide_border=true&color=A78BFA&line=7C3AED&point=C4B5FD" width="100%" alt="Activity Graph"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=TamirSu&hide_border=true&bg_color=0D1117&color=FFD166&line=B71C1C&point=F2A900&area=true&area_color=7A0E0E" width="100%" alt="Activity Graph"/>
 
 </div>
 
