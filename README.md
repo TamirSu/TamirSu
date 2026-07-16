@@ -184,22 +184,12 @@ Processor hardware validation in lab environments.
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=TamirSu&show_icons=true&hide_border=true&count_private=true&bg_color=0D1117&title_color=FFD166&icon_color=E62429&text_color=C9D1D9" height="165" alt="GitHub Stats"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TamirSu&layout=compact&hide_border=true&bg_color=0D1117&title_color=FFD166&text_color=C9D1D9" height="165" alt="Top Languages"/>
+<img src="assets/stats.svg" height="165" alt="GitHub Stats"/>
+<img src="assets/langs.svg" height="165" alt="Top Languages"/>
 
 <br/><br/>
 
 <img src="https://streak-stats.demolab.com?user=TamirSu&hide_border=true&background=0D1117&ring=F2A900&fire=E62429&currStreakLabel=FFD166&sideLabels=FFD166&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8B949E&stroke=3D0808" alt="Streak Stats"/>
-
-</div>
-
----
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=TamirSu&theme=onedark&no-frame=true&column=7&margin-w=8" alt="Trophies"/>
 
 </div>
 
