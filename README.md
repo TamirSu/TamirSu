@@ -215,16 +215,6 @@ Processor hardware validation in lab environments.
 
 ---
 
-## 🐍 Contribution Snake
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/TamirSu/TamirSu/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake"/>
-
-</div>
-
----
-
 ## 🎯 Current Focus
 
 ```yaml
