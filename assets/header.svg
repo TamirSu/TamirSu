@@ -38,9 +38,9 @@
   <!-- rotating name (fake 3D spin around vertical axis) + reflection -->
   <g transform="translate(600,0)">
     <g>
-      <animateTransform attributeName="transform" type="scale" additive="sum" dur="7s" repeatCount="indefinite"
+      <animateTransform attributeName="transform" type="scale" additive="sum" dur="12s" repeatCount="indefinite"
         values="1 1; 0 1; -1 1; 0 1; 1 1; 1 1"
-        keyTimes="0; 0.045; 0.09; 0.135; 0.18; 1"/>
+        keyTimes="0; 0.125; 0.25; 0.375; 0.5; 1"/>
       <text x="0" y="112" text-anchor="middle"
         font-family="'Arial Black','Helvetica Neue',Arial,sans-serif" font-style="italic"
         font-size="55" font-weight="900" letter-spacing="4" fill="url(#nameGrad)">TAMIR SOBUH</text>
