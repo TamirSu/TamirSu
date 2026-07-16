@@ -9,6 +9,16 @@
       <stop offset="0%" stop-color="#F2A900" stop-opacity="0.45"/>
       <stop offset="100%" stop-color="#FFD166" stop-opacity="0.20"/>
     </linearGradient>
+    <linearGradient id="blade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#B87D00"/>
+      <stop offset="55%" stop-color="#F2A900"/>
+      <stop offset="100%" stop-color="#FFD97A"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFE9B0"/>
+      <stop offset="55%" stop-color="#FFD166"/>
+      <stop offset="100%" stop-color="#E0A93F"/>
+    </linearGradient>
     <radialGradient id="arc" cx="50%" cy="50%" r="50%">
       <stop offset="0%" stop-color="#BFF8FF" stop-opacity="0.9"/>
       <stop offset="45%" stop-color="#4FD1C5" stop-opacity="0.5"/>
@@ -18,29 +28,43 @@
 
   <rect width="1200" height="240" fill="url(#bg)"/>
 
-  <circle cx="600" cy="88" r="120" fill="url(#arc)" opacity="0.35">
-    <animate attributeName="opacity" values="0.25;0.45;0.25" dur="4s" repeatCount="indefinite"/>
+  <circle cx="600" cy="90" r="130" fill="url(#arc)" opacity="0.30">
+    <animate attributeName="opacity" values="0.2;0.4;0.2" dur="4s" repeatCount="indefinite"/>
   </circle>
 
-  <path fill="url(#wave1)" d="M0,190 C200,150 400,230 600,190 C800,150 1000,230 1200,190 L1200,240 L0,240 Z">
-    <animate attributeName="d" dur="7s" repeatCount="indefinite"
-      values="M0,190 C200,150 400,230 600,190 C800,150 1000,230 1200,190 L1200,240 L0,240 Z;
-              M0,200 C200,240 400,150 600,200 C800,240 1000,150 1200,200 L1200,240 L0,240 Z;
-              M0,190 C200,150 400,230 600,190 C800,150 1000,230 1200,190 L1200,240 L0,240 Z"/>
-  </path>
-  <path fill="#3D0808" opacity="0.6" d="M0,210 C300,180 500,240 700,210 C900,185 1100,235 1200,210 L1200,240 L0,240 Z">
-    <animate attributeName="d" dur="9s" repeatCount="indefinite"
-      values="M0,210 C300,180 500,240 700,210 C900,185 1100,235 1200,210 L1200,240 L0,240 Z;
-              M0,215 C300,240 500,180 700,215 C900,240 1100,185 1200,215 L1200,240 L0,240 Z;
-              M0,210 C300,180 500,240 700,210 C900,185 1100,235 1200,210 L1200,240 L0,240 Z"/>
-  </path>
+  <!-- stark-style blade over the name -->
+  <polygon fill="url(#blade)" points="245,50 950,34 858,108 843,66 245,57"/>
 
-  <text x="600" y="105" text-anchor="middle" fill="#FFD166" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="52" font-weight="800" letter-spacing="1">
-    Tamir Sobuh
-    <animate attributeName="opacity" from="0" to="1" dur="1.2s" fill="freeze"/>
-  </text>
-  <text x="600" y="145" text-anchor="middle" fill="#FBE3B5" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" font-weight="500" letter-spacing="3">
+  <!-- rotating name (fake 3D spin around vertical axis) + reflection -->
+  <g transform="translate(600,0)">
+    <g>
+      <animateTransform attributeName="transform" type="scale" additive="sum" dur="7s" repeatCount="indefinite"
+        values="1 1; 0 1; -1 1; 0 1; 1 1; 1 1"
+        keyTimes="0; 0.045; 0.09; 0.135; 0.18; 1"/>
+      <text x="0" y="112" text-anchor="middle"
+        font-family="'Arial Black','Helvetica Neue',Arial,sans-serif" font-style="italic"
+        font-size="55" font-weight="900" letter-spacing="4" fill="url(#nameGrad)">TAMIR SOBUH</text>
+      <text x="0" y="0" text-anchor="middle" transform="translate(0,126) scale(1,-0.32)"
+        font-family="'Arial Black','Helvetica Neue',Arial,sans-serif" font-style="italic"
+        font-size="55" font-weight="900" letter-spacing="4" fill="#FFD166" opacity="0.16">TAMIR SOBUH</text>
+    </g>
+  </g>
+
+  <text x="600" y="178" text-anchor="middle" fill="#FBE3B5" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="18" font-weight="500" letter-spacing="4">
     SOFTWARE ENGINEERING STUDENT&#160;&#160;|&#160;&#160;QA &amp; SECURITY
     <animate attributeName="opacity" from="0" to="1" dur="1.2s" begin="0.4s" fill="freeze"/>
   </text>
+
+  <path fill="url(#wave1)" d="M0,196 C200,160 400,232 600,196 C800,160 1000,232 1200,196 L1200,240 L0,240 Z">
+    <animate attributeName="d" dur="7s" repeatCount="indefinite"
+      values="M0,196 C200,160 400,232 600,196 C800,160 1000,232 1200,196 L1200,240 L0,240 Z;
+              M0,204 C200,238 400,162 600,204 C800,238 1000,162 1200,204 L1200,240 L0,240 Z;
+              M0,196 C200,160 400,232 600,196 C800,160 1000,232 1200,196 L1200,240 L0,240 Z"/>
+  </path>
+  <path fill="#3D0808" opacity="0.6" d="M0,214 C300,186 500,240 700,214 C900,190 1100,238 1200,214 L1200,240 L0,240 Z">
+    <animate attributeName="d" dur="9s" repeatCount="indefinite"
+      values="M0,214 C300,186 500,240 700,214 C900,190 1100,238 1200,214 L1200,240 L0,240 Z;
+              M0,218 C300,240 500,186 700,218 C900,240 1100,190 1200,218 L1200,240 L0,240 Z;
+              M0,214 C300,186 500,240 700,214 C900,190 1100,238 1200,214 L1200,240 L0,240 Z"/>
+  </path>
 </svg>
